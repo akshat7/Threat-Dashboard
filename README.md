@@ -3,6 +3,8 @@ In the current era of cyber warfare and security threat attacks, it comes as a c
 
 # Instructions for starting the Dashboard
 
+The dashboard works only in MacOSX.
+
 1. cd into the &quot;elasticsearch&quot; folder which is inside ELK\_trial folder and run the command &quot;bin/elasticsearch&quot;.
 
 2. After elasticsearch is started, cd into the &quot;kibana final dashboard&quot; folder and run the command &quot;bin/kibana&quot;. This will start the dashboard service.
@@ -28,8 +30,8 @@ After starting elasticsearch using the above instructions, start logstash and th
 5. To stop any of the E, L, K, Python process, you have to press &quot;windows+c&quot; in windows-based keyboards and &quot;control+c&quot; on apple-based keyboards.
 
 6. When there is no internet connection, two things will not work:
-  1. The data extraction.
-  2. Kibana Tile Map service. This means that although the geo-points will be shown on the map-space, but the geographical locations will not be shown on the map.
+     a. The data extraction.
+     b. Kibana Tile Map service. This means that although the geo-points will be shown on the map-space, but the geographical locations will not be shown on the map.
 
 7. If shifted the project on some other system, installation of 3rd-Party Python libraries might be needed, and Java 8 might be needed for the Elastic-Stack (ELK Stack).
 
